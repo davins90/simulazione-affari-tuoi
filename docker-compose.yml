@@ -1,0 +1,7 @@
+services:
+  jupyter-lab:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./workbench:/home/jovyan/workbench
